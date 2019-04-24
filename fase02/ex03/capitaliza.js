@@ -1,3 +1,3 @@
-function captaliza(Palavra) {
+function capitaliza(Palavra) {
    return Palavra.toUpperCase()
 }
