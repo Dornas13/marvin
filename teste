@@ -1,0 +1,12 @@
+function nove(y) {
+    
+    var Inv = y.reverse
+
+ var x = (parseInt(Inv.toString()(( Inv.length -2, Inv.length ))))
+ 
+ if (x === 9) {return "true"}
+
+ else {return "false"}
+ 
+}
+console.log (nove(9234567))
