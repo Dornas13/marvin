@@ -9,5 +9,5 @@ function alfabetoMilitar(x) {
     if( x==="O") {return "oscar"}
     if( x==="u") {return "uniform"}
     if( x==="U") {return "uniform"}
- else {return "false"}
+ else {return false}
 }
