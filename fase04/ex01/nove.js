@@ -1,8 +1,10 @@
 function nove(y) {
  
-var x = y % 10
+ var x = y.toString()
  
-  if (x === 9) {return true}
+  var t = x.charAt(x.length - 1)
+  
+  if (t == 9) {return true}
+  else {return false}
 
- else {return false}   
 }
